@@ -1,0 +1,48 @@
+div.show {
+    display: flex;
+}
+
+div.hide {
+    display: none;
+}
+
+.modal {
+    height: 100px;
+    width: 200px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: palegreen;
+}
+
+.yes {
+    width: 20%;
+}
+
+.find_another {
+    width: 70%;
+}
+
+.modal h3 {
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns button {
+    outline: none;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: lawngreen;
+    cursor: pointer;
+}

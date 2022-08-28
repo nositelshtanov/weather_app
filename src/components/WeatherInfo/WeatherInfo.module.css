@@ -1,0 +1,55 @@
+.container {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 660px;
+    height: 439px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.load {
+
+}
+
+.desc {
+    font-size: 1.6rem;
+}
+
+.data_container {
+
+}
+
+.container h1 {
+    margin-bottom: 10px;
+}
+
+.container h3 {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.weather_list_container {
+    padding-left: 15px;
+    border-left: 1px solid black;
+    margin-top: 10px;
+}
+
+.weather_list {
+    columns: 2;
+}
+
+.weather_list li {
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+
+.main_info {
+    display: flex;
+    align-items: center;
+}
+
+.main_info img {
+    height: 50px;
+}
